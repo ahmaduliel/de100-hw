@@ -8702,7 +8702,6 @@ Source: www.kingbright.com</description>
 <part name="GND-ISO8" library="SparkFun-PowerSymbols" deviceset="GND-ISO" device=""/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-SQUARE" device="3.0" package3d_urn="urn:adsk.eagle:package:14290/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-SQUARE" device="3.0" package3d_urn="urn:adsk.eagle:package:14290/1"/>
-<part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-SQUARE" device="3.0" package3d_urn="urn:adsk.eagle:package:14290/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -9117,10 +9116,6 @@ Source: www.kingbright.com</description>
 <instance part="H2" gate="G$1" x="162.56" y="5.08" smashed="yes">
 <attribute name="NAME" x="165.354" y="5.6642" size="1.778" layer="95"/>
 <attribute name="VALUE" x="165.354" y="2.6162" size="1.778" layer="96"/>
-</instance>
-<instance part="H3" gate="G$1" x="154.94" y="5.08" smashed="yes">
-<attribute name="NAME" x="157.734" y="5.6642" size="1.778" layer="95"/>
-<attribute name="VALUE" x="157.734" y="2.6162" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
