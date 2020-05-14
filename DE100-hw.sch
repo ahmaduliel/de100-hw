@@ -8703,6 +8703,7 @@ Source: www.kingbright.com</description>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-SQUARE" device="3.0" package3d_urn="urn:adsk.eagle:package:14290/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-SQUARE" device="3.0" package3d_urn="urn:adsk.eagle:package:14290/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-SQUARE" device="3.0" package3d_urn="urn:adsk.eagle:package:14290/1"/>
+<part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-SQUARE" device="3.0" package3d_urn="urn:adsk.eagle:package:14290/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -9138,6 +9139,10 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="H3" gate="G$1" x="127" y="5.08" smashed="yes">
 <attribute name="NAME" x="129.794" y="5.6642" size="1.778" layer="95"/>
+<attribute name="VALUE" x="124.714" y="7.6962" size="1.778" layer="96"/>
+</instance>
+<instance part="H4" gate="G$1" x="119.38" y="5.08" smashed="yes">
+<attribute name="NAME" x="122.174" y="5.6642" size="1.778" layer="95"/>
 <attribute name="VALUE" x="124.714" y="7.6962" size="1.778" layer="96"/>
 </instance>
 </instances>
