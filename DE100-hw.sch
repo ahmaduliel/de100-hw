@@ -582,203 +582,6 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 </deviceset>
 </devicesets>
 </library>
-<library name="con-molex" urn="urn:adsk.eagle:library:165">
-<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="22-23-2041" urn="urn:adsk.eagle:footprint:8078261/1" library_version="5">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232041_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
-<wire x1="5.08" y1="3.175" x2="5.08" y2="1.27" width="0.254" layer="21"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="1.27" x2="-5.08" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
-<text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="22-23-2031" urn="urn:adsk.eagle:footprint:8078260/1" library_version="5">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 3 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232031_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.254" layer="21"/>
-<wire x1="3.81" y1="3.175" x2="3.81" y2="1.27" width="0.254" layer="21"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="3.81" y1="-3.175" x2="-3.81" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="-3.175" x2="-3.81" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="1.27" x2="-3.81" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1" shape="long" rot="R90"/>
-<text x="-3.81" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="22-23-2101" urn="urn:adsk.eagle:footprint:8078267/1" library_version="5">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 10 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232101_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<wire x1="-12.7" y1="3.175" x2="12.7" y2="3.175" width="0.254" layer="21"/>
-<wire x1="12.7" y1="3.175" x2="12.7" y2="1.27" width="0.254" layer="21"/>
-<wire x1="12.7" y1="1.27" x2="12.7" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="12.7" y1="-3.175" x2="-12.7" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="-12.7" y1="-3.175" x2="-12.7" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-12.7" y1="1.27" x2="-12.7" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-12.7" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-11.43" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="2" x="-8.89" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="3" x="-6.35" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="4" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="5" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="6" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="7" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="8" x="6.35" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="9" x="8.89" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="10" x="11.43" y="0" drill="1" shape="long" rot="R90"/>
-<text x="-12.7" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-12.7" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="22-23-2041" urn="urn:adsk.eagle:package:8078635/1" type="box" library_version="5">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232041_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<packageinstances>
-<packageinstance name="22-23-2041"/>
-</packageinstances>
-</package3d>
-<package3d name="22-23-2031" urn="urn:adsk.eagle:package:8078634/1" type="box" library_version="5">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 3 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232031_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<packageinstances>
-<packageinstance name="22-23-2031"/>
-</packageinstances>
-</package3d>
-<package3d name="22-23-2101" urn="urn:adsk.eagle:package:8078641/1" type="box" library_version="5">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 10 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232101_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<packageinstances>
-<packageinstance name="22-23-2101"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="MV" urn="urn:adsk.eagle:symbol:6783/2" library_version="5">
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-<symbol name="M" urn="urn:adsk.eagle:symbol:6785/2" library_version="5">
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="22-23-2041" urn="urn:adsk.eagle:component:8078936/3" prefix="X" library_version="5">
-<description>.100" (2.54mm) Center Header - 4 Pin</description>
-<gates>
-<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-4" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="22-23-2041">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8078635/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="22-23-2041" constant="no"/>
-<attribute name="OC_FARNELL" value="1462920" constant="no"/>
-<attribute name="OC_NEWARK" value="38C0355" constant="no"/>
-<attribute name="POPULARITY" value="21" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="22-23-2031" urn="urn:adsk.eagle:component:8078937/3" prefix="X" library_version="5">
-<description>.100" (2.54mm) Center Header - 3 Pin</description>
-<gates>
-<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="22-23-2031">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8078634/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="22-23-2031" constant="no"/>
-<attribute name="OC_FARNELL" value="1462950" constant="no"/>
-<attribute name="OC_NEWARK" value="30C0862" constant="no"/>
-<attribute name="POPULARITY" value="35" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="22-23-2101" urn="urn:adsk.eagle:component:8078966/3" prefix="X" library_version="5">
-<description>.100" (2.54mm) Center Header - 10 Pin</description>
-<gates>
-<gate name="-1" symbol="MV" x="0" y="10.16" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="M" x="0" y="7.62" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="0" y="5.08" addlevel="always" swaplevel="1"/>
-<gate name="-4" symbol="M" x="0" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-5" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-6" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-7" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
-<gate name="-8" symbol="M" x="0" y="-7.62" addlevel="always" swaplevel="1"/>
-<gate name="-9" symbol="M" x="0" y="-10.16" addlevel="always" swaplevel="1"/>
-<gate name="-10" symbol="M" x="0" y="-12.7" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="22-23-2101">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-10" pin="S" pad="10"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-<connect gate="-5" pin="S" pad="5"/>
-<connect gate="-6" pin="S" pad="6"/>
-<connect gate="-7" pin="S" pad="7"/>
-<connect gate="-8" pin="S" pad="8"/>
-<connect gate="-9" pin="S" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8078641/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="22-23-2101" constant="no"/>
-<attribute name="OC_FARNELL" value="1756828" constant="no"/>
-<attribute name="OC_NEWARK" value="94C0765" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="74xx-eu" urn="urn:adsk.eagle:library:85">
 <description>&lt;b&gt;TTL Devices, 74xx Series with European Symbols&lt;/b&gt;&lt;p&gt;
 Based on the following sources:
@@ -8601,6 +8404,316 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Rembrandt Electronics - JST XH Connectors v1-0">
+<packages>
+<package name="JST-XH-10-PACKAGE-LONG-PAD">
+<description>&lt;b&gt;JST XH Connector Long Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="13.7" y1="-2.3575" x2="13.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="13.7" y1="3.3925" x2="-13.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-13.7" y1="3.3925" x2="-13.7" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-13.7" y1="-2.3575" x2="13.7" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-8.89" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-11.43" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-14.255" y="-2.14" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-13.3025" y="3.8925" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-12.9675" y="-1.5875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-11.4" y1="-2.3" x2="-11.4" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="11.5" y1="-2.3" x2="11.5" y2="-1.8" width="0.254" layer="21"/>
+<pad name="6" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="7" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="8" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="9" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="10" x="11.43" y="0" drill="1.016" shape="long" rot="R90"/>
+</package>
+<package name="JST-XH-10-PACKAGE-ROUND-PAD">
+<description>&lt;b&gt;JST XH Connector Round Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="13.7" y1="-2.3575" x2="13.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="13.7" y1="3.3925" x2="-13.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-13.7" y1="3.3925" x2="-13.7" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-13.7" y1="-2.3575" x2="13.7" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="-6.35" y="0" drill="1.016" rot="R90"/>
+<pad name="2" x="-8.89" y="0" drill="1.016" rot="R90"/>
+<pad name="1" x="-11.43" y="0" drill="1.016" rot="R90"/>
+<pad name="4" x="-3.81" y="0" drill="1.016" rot="R90"/>
+<pad name="5" x="-1.27" y="0" drill="1.016" rot="R90"/>
+<text x="-14.255" y="-2.14" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-13.3025" y="3.8925" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-12.9675" y="-1.5875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-11.4" y1="-2.3" x2="-11.4" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="11.5" y1="-2.3" x2="11.5" y2="-1.8" width="0.254" layer="21"/>
+<pad name="6" x="1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="7" x="3.81" y="0" drill="1.016" rot="R90"/>
+<pad name="8" x="6.35" y="0" drill="1.016" rot="R90"/>
+<pad name="9" x="8.89" y="0" drill="1.016" rot="R90"/>
+<pad name="10" x="11.43" y="0" drill="1.016" rot="R90"/>
+</package>
+<package name="JST-XH-04-PACKAGE-LONG-PAD">
+<description>&lt;b&gt;JST XH Connector Long Pads (Package)&lt;/b&gt;&lt;p&gt;
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="6.2" y1="-2.3575" x2="6.2" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="6.2" y1="3.3925" x2="-6.2" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-6.2" y1="3.3925" x2="-6.2" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-6.2" y1="-2.3575" x2="6.2" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-6.655" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-6.0025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-5.4675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-3.8" y1="-2.3" x2="-3.8" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="3.9" y1="-2.3" x2="3.9" y2="-1.8" width="0.254" layer="21"/>
+</package>
+<package name="JST-XH-04-PACKAGE-ROUND-PAD">
+<description>&lt;b&gt;JST XH Connector Round Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="6.2" y1="-2.3575" x2="6.2" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="6.2" y1="3.3925" x2="-6.2" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-6.2" y1="3.3925" x2="-6.2" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-6.2" y1="-2.3575" x2="6.2" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" rot="R90"/>
+<text x="-6.655" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-6.0025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-5.4675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-3.8" y1="-2.3" x2="-3.8" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="3.9" y1="-2.3" x2="3.9" y2="-1.8" width="0.254" layer="21"/>
+</package>
+<package name="JST-XH-03-PACKAGE-LONG-PAD">
+<description>&lt;b&gt;JST XH Connector Long Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="4.95" y1="-2.3575" x2="4.95" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="4.95" y1="3.3925" x2="-4.95" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-4.95" y1="3.3925" x2="-4.95" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-4.95" y1="-2.3575" x2="4.95" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.555" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-4.6025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.1675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-2.6" y1="-2.3" x2="-2.6" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="2.5" y1="-2.3" x2="2.5" y2="-1.8" width="0.254" layer="21"/>
+</package>
+<package name="JST-XH-03-PACKAGE-ROUND-PAD">
+<description>&lt;b&gt;JST XH Connector Round Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="4.95" y1="-2.3575" x2="4.95" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="4.95" y1="3.3925" x2="-4.95" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-4.95" y1="3.3925" x2="-4.95" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-4.95" y1="-2.3575" x2="4.95" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="2.54" y="0" drill="1.016" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" rot="R90"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" rot="R90"/>
+<text x="-5.555" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-4.6025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.1675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-2.6" y1="-2.3" x2="-2.6" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="2.5" y1="-2.3" x2="2.5" y2="-1.8" width="0.254" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MV">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="M">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JST-XH-10-PIN" prefix="X">
+<description>&lt;b&gt;JST XH Connector 2 Pin&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="-1" symbol="MV" x="2.54" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="2.54" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="2.54" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="2.54" y="-7.62" addlevel="always" swaplevel="1"/>
+<gate name="-5" symbol="M" x="2.54" y="-10.16" addlevel="always" swaplevel="1"/>
+<gate name="-6" symbol="M" x="2.54" y="-12.7" addlevel="always" swaplevel="1"/>
+<gate name="-7" symbol="M" x="2.54" y="-15.24" addlevel="always" swaplevel="1"/>
+<gate name="-8" symbol="M" x="2.54" y="-17.78" addlevel="always" swaplevel="1"/>
+<gate name="-9" symbol="M" x="2.54" y="-20.32" addlevel="always" swaplevel="1"/>
+<gate name="-10" symbol="M" x="2.54" y="-22.86" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="-LONG-PAD" package="JST-XH-10-PACKAGE-LONG-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-10" pin="S" pad="10"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+<connect gate="-7" pin="S" pad="7"/>
+<connect gate="-8" pin="S" pad="8"/>
+<connect gate="-9" pin="S" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-ROUND-PAD" package="JST-XH-10-PACKAGE-ROUND-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-10" pin="S" pad="10"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+<connect gate="-7" pin="S" pad="7"/>
+<connect gate="-8" pin="S" pad="8"/>
+<connect gate="-9" pin="S" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-XH-04-PIN" prefix="X">
+<description>&lt;b&gt;JST XH Connector 2 Pin&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="-1" symbol="MV" x="2.54" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="2.54" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="2.54" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="2.54" y="-7.62" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="-LONG-PAD" package="JST-XH-04-PACKAGE-LONG-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-ROUND-PAD" package="JST-XH-04-PACKAGE-ROUND-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-XH-03-PIN" prefix="X">
+<description>&lt;b&gt;JST XH Connector 2 Pin&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="-1" symbol="MV" x="2.54" y="7.62" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="2.54" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="2.54" y="2.54" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="-LONG-PAD" package="JST-XH-03-PACKAGE-LONG-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-ROUND-PAD" package="JST-XH-03-PACKAGE-ROUND-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8614,9 +8727,6 @@ Source: www.kingbright.com</description>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="U$1" library="MIKRO_MEGA2560" deviceset="MEGA2560_MIKRO" device=""/>
 <part name="U$2" library="diy-modules" deviceset="DC-DC-STEP-DOWN-LM2596" device=""/>
-<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device="" package3d_urn="urn:adsk.eagle:package:8078635/1"/>
-<part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device="" package3d_urn="urn:adsk.eagle:package:8078634/1"/>
-<part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2101" device="" package3d_urn="urn:adsk.eagle:package:8078641/1"/>
 <part name="IC3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*14" device="D" package3d_urn="urn:adsk.eagle:package:1010/2" technology="HC"/>
 <part name="IC4" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*14" device="D" package3d_urn="urn:adsk.eagle:package:1010/2" technology="HC"/>
 <part name="U1" library="TLP521-4_GB_" deviceset="TLP521-4(GB)" device=""/>
@@ -8704,6 +8814,9 @@ Source: www.kingbright.com</description>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-SQUARE" device="3.0" package3d_urn="urn:adsk.eagle:package:14290/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-SQUARE" device="3.0" package3d_urn="urn:adsk.eagle:package:14290/1"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-SQUARE" device="3.0" package3d_urn="urn:adsk.eagle:package:14290/1"/>
+<part name="X4" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-10-PIN" device="-LONG-PAD"/>
+<part name="X5" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD"/>
+<part name="X6" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD"/>
 </parts>
 <sheets>
 <sheet>
@@ -8737,60 +8850,6 @@ Source: www.kingbright.com</description>
 <instance part="U$2" gate="G$1" x="38.1" y="147.32" smashed="yes">
 <attribute name="NAME" x="25.4" y="162.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="25.4" y="160.02" size="1.778" layer="96"/>
-</instance>
-<instance part="X1" gate="-1" x="66.04" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.5" y="56.642" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="66.802" y="54.483" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="X1" gate="-2" x="66.04" y="58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.5" y="59.182" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X1" gate="-3" x="66.04" y="60.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.5" y="61.722" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X1" gate="-4" x="66.04" y="63.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.5" y="64.262" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X2" gate="-1" x="78.74" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="76.2" y="21.082" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="79.502" y="18.923" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="X2" gate="-2" x="78.74" y="22.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="76.2" y="23.622" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X2" gate="-3" x="78.74" y="25.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="76.2" y="26.162" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-1" x="162.56" y="121.92" smashed="yes" rot="R180">
-<attribute name="NAME" x="160.02" y="122.682" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="163.322" y="120.523" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="X3" gate="-2" x="162.56" y="124.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="160.02" y="125.222" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-3" x="162.56" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="160.02" y="127.762" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-4" x="162.56" y="129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="160.02" y="130.302" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-5" x="162.56" y="132.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="160.02" y="132.842" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-6" x="162.56" y="134.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="160.02" y="135.382" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-7" x="162.56" y="137.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="160.02" y="137.922" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-8" x="162.56" y="139.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="160.02" y="140.462" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-9" x="162.56" y="142.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="160.02" y="143.002" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-10" x="162.56" y="144.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="160.02" y="145.542" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="IC3" gate="A" x="215.9" y="167.64" smashed="yes">
 <attribute name="NAME" x="217.17" y="170.815" size="1.778" layer="95"/>
@@ -9145,15 +9204,69 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="122.174" y="5.6642" size="1.778" layer="95"/>
 <attribute name="VALUE" x="124.714" y="7.6962" size="1.778" layer="96"/>
 </instance>
+<instance part="X4" gate="-1" x="162.56" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="160.02" y="122.682" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="176.022" y="120.523" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X4" gate="-2" x="162.56" y="124.46" smashed="yes" rot="R180">
+<attribute name="NAME" x="160.02" y="125.222" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X4" gate="-3" x="162.56" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="160.02" y="127.762" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X4" gate="-4" x="162.56" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="160.02" y="130.302" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X4" gate="-5" x="162.56" y="132.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="160.02" y="132.842" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X4" gate="-6" x="162.56" y="134.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="160.02" y="135.382" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X4" gate="-7" x="162.56" y="137.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="160.02" y="137.922" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X4" gate="-8" x="162.56" y="139.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="160.02" y="140.462" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X4" gate="-9" x="162.56" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="160.02" y="143.002" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X4" gate="-10" x="162.56" y="144.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="160.02" y="145.542" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X5" gate="-1" x="66.04" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="63.5" y="56.642" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="57.277" y="76.962" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="X5" gate="-2" x="66.04" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="63.5" y="59.182" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X5" gate="-3" x="66.04" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="63.5" y="61.722" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X5" gate="-4" x="66.04" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="63.5" y="64.262" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X6" gate="-1" x="78.74" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="21.082" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="84.582" y="18.923" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X6" gate="-2" x="78.74" y="22.86" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="23.622" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X6" gate="-3" x="78.74" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="26.162" size="1.524" layer="95" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="LS-1" class="0">
 <segment>
-<pinref part="X3" gate="-1" pin="S"/>
-<wire x1="165.1" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
 <label x="167.64" y="121.92" size="1.778" layer="95"/>
+<pinref part="X4" gate="-1" pin="S"/>
+<wire x1="167.64" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -9163,9 +9276,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="LS-2" class="0">
 <segment>
-<pinref part="X3" gate="-2" pin="S"/>
-<wire x1="165.1" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
 <label x="167.64" y="124.46" size="1.778" layer="95"/>
+<pinref part="X4" gate="-2" pin="S"/>
+<wire x1="167.64" y1="124.46" x2="165.1" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -9175,9 +9288,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="LS-3" class="0">
 <segment>
-<pinref part="X3" gate="-3" pin="S"/>
-<wire x1="165.1" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
 <label x="167.64" y="127" size="1.778" layer="95"/>
+<pinref part="X4" gate="-3" pin="S"/>
+<wire x1="167.64" y1="127" x2="165.1" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -9187,9 +9300,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="LS-4" class="0">
 <segment>
-<pinref part="X3" gate="-4" pin="S"/>
-<wire x1="165.1" y1="129.54" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
 <label x="167.64" y="129.54" size="1.778" layer="95"/>
+<pinref part="X4" gate="-4" pin="S"/>
+<wire x1="167.64" y1="129.54" x2="165.1" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -9199,9 +9312,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="LS-7" class="0">
 <segment>
-<pinref part="X3" gate="-9" pin="S"/>
-<wire x1="165.1" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
 <label x="167.64" y="142.24" size="1.778" layer="95"/>
+<pinref part="X4" gate="-9" pin="S"/>
+<wire x1="167.64" y1="142.24" x2="165.1" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -9211,9 +9324,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="LS-6" class="0">
 <segment>
-<pinref part="X3" gate="-7" pin="S"/>
-<wire x1="165.1" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
 <label x="167.64" y="137.16" size="1.778" layer="95"/>
+<pinref part="X4" gate="-7" pin="S"/>
+<wire x1="167.64" y1="137.16" x2="165.1" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -9223,9 +9336,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="LS-5" class="0">
 <segment>
-<pinref part="X3" gate="-6" pin="S"/>
-<wire x1="165.1" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
 <label x="167.64" y="134.62" size="1.778" layer="95"/>
+<pinref part="X4" gate="-6" pin="S"/>
+<wire x1="167.64" y1="134.62" x2="165.1" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -9291,16 +9404,16 @@ Source: www.kingbright.com</description>
 <wire x1="71.12" y1="142.24" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-1" pin="S"/>
-<wire x1="68.58" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="71.12" y1="55.88" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-1" pin="S"/>
+<wire x1="68.58" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-1" pin="S"/>
-<wire x1="81.28" y1="20.32" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="83.82" y1="20.32" x2="83.82" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="X6" gate="-1" pin="S"/>
+<wire x1="83.82" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND.2"/>
@@ -9374,16 +9487,16 @@ Source: www.kingbright.com</description>
 <junction x="81.28" y="88.9"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-4" pin="S"/>
-<wire x1="68.58" y1="63.5" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
 <wire x1="71.12" y1="63.5" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-4" pin="S"/>
+<wire x1="68.58" y1="63.5" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-3" pin="S"/>
-<wire x1="81.28" y1="25.4" x2="83.82" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
 <wire x1="83.82" y1="25.4" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="X6" gate="-3" pin="S"/>
+<wire x1="83.82" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
@@ -9548,26 +9661,26 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="X2" gate="-2" pin="S"/>
 <pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="X6" gate="-2" pin="S"/>
+<wire x1="83.82" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC-ISO" class="0">
 <segment>
-<pinref part="X3" gate="-10" pin="S"/>
-<wire x1="165.1" y1="144.78" x2="167.64" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="VCC-ISO"/>
 <wire x1="167.64" y1="144.78" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-8" pin="S"/>
-<wire x1="175.26" y1="139.7" x2="165.1" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-5" pin="S"/>
-<wire x1="165.1" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="132.08" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 <junction x="175.26" y="139.7"/>
 <wire x1="167.64" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="144.78" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 <junction x="167.64" y="144.78"/>
+<pinref part="X4" gate="-10" pin="S"/>
+<wire x1="167.64" y1="144.78" x2="165.1" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="X4" gate="-8" pin="S"/>
+<wire x1="175.26" y1="139.7" x2="165.1" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="X4" gate="-5" pin="S"/>
+<wire x1="175.26" y1="132.08" x2="165.1" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -9755,19 +9868,19 @@ Source: www.kingbright.com</description>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="68.58" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-3" pin="S"/>
-<wire x1="68.58" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
 <junction x="73.66" y="60.96"/>
+<pinref part="X5" gate="-3" pin="S"/>
+<wire x1="68.58" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="X1" gate="-2" pin="S"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="88.9" y1="58.42" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
 <junction x="88.9" y="58.42"/>
+<pinref part="X5" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="LIN-5" class="0">
